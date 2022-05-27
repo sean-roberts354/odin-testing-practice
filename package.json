@@ -1,0 +1,31 @@
+{
+  "name": "odin-testing-practice",
+  "version": "1.0.0",
+  "description": "A collection of basic algorithms used to practice TDD and writing unit tests with Jest",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "npx babel src/ --out-dir dist/ --ignore src/__tests__/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sean-roberts354/odin-testing-practice.git"
+  },
+  "author": "Sean Roberts",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/sean-roberts354/odin-testing-practice/issues"
+  },
+  "homepage": "https://github.com/sean-roberts354/odin-testing-practice#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "eslint": "^8.16.0",
+    "prettier": "^2.6.2"
+  }
+}
