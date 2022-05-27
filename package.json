@@ -2,7 +2,8 @@
   "name": "odin-testing-practice",
   "version": "1.0.0",
   "description": "A collection of basic algorithms used to practice TDD and writing unit tests with Jest",
-  "main": "dist/index.js",
+  "main": "",
+  "private": "true",
   "scripts": {
     "test": "jest",
     "build": "npx babel src/ --out-dir dist/ --ignore src/__tests__/*"
@@ -22,10 +23,8 @@
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
     "babel-jest": "^28.1.0",
-    "jest": "^28.1.0"
-  },
-  "dependencies": {
+    "jest": "^28.1.0",
     "eslint": "^8.16.0",
     "prettier": "^2.6.2"
-  }
+  }  
 }
